@@ -79,3 +79,11 @@ iframe {
   margin-left: 1vw;
   margin-right: 1vw;
 }
+.seccion{
+  padding: 3vw;
+  margin: 0;
+}
+.titulo-seccion{
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
