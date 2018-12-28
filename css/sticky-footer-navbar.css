@@ -3,7 +3,7 @@
 /* Not required for template or sticky footer method. */
 
 main > .container {
-  padding: 10vh 3vw 0;
+  padding: 10vh 3  vw 0;
 }
 
 .footer {
@@ -14,16 +14,18 @@ main > .container {
 }
 
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 3vw;
+  padding-left: 3vw;
   text-align: center;
 
 }
-
-code {
-  font-size: 80%;
+.footer a{
+  color: rgb(183, 207, 224);
 }
 
+nav{
+  background-color: rgba(60, 167, 207, 0.9);
+}
 .card-actividades{
   padding: 1rem;
   margin-bottom: 1rem;
@@ -31,4 +33,49 @@ code {
 
 .datos-fundacion{
   vertical-align: middle;
+}
+
+.noticia{
+  margin: 0;
+  margin-top: 1vh;
+  padding: 2vw;
+}
+.noticia-title{
+  margin: 1vh;
+
+}
+.noticia a:link, a:hover{
+  text-decoration:none;
+}
+.noticia a:link{
+
+}
+.notica a:hover{
+
+}
+.noticia-body{
+  margin-top: 3vh;
+}
+.noticia-footer{
+  display: inline-block;
+}
+
+.item-noticia-footer{
+  padding:0;
+  margin-left: 0.5vw;
+  margin-right: 0.8vw;
+}
+iframe {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+.form{
+  margin:0;
+  padding: 2vw;
+}
+.item-footer{
+  padding:0;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
